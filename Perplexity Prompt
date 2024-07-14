@@ -1,0 +1,13 @@
+My Gym has Members and runs sessions.
+A member has a name and a status which may be "Booked", "Waitlisted" or "Checked in".
+A session has a date, a time and an array of members.
+Implement (not in Python) local storage for an array of sessions.
+Initialize this storage from a JSON string.
+Implement a web page to list these sessions with each session headed with its date and time 
+followed by a table with a  row for each member. 
+The first column to be a button labeled in black on green with the members name and second column to be the status.
+The button should change the status from "Booked" to "Checked in" and no more.
+The "Booked" status should be black on yellow. 
+The "Waitlisted" status should be black on red. 
+The "Checked in"" status should be black on green. 
+

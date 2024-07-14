@@ -1,0 +1,106 @@
+/* styles.css */
+h1 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+h1 .subheader {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #333;
+}
+
+h1 .datetime-header {
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #333;
+}
+
+.date-time-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+.date-time-header #current-date {
+    text-align: center;
+}
+.check-in-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.check-in-header span {
+    text-align: center;
+}
+.date-time-header #current-time {
+    text-align: right;
+}
+
+.button {
+    -webkit-background-color: white; /* For older Android browsers */
+    background-color: white;
+    color: #ec610e;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+
+.session {    
+    border: none;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Arial, sans-serif;    
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.session-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: max-content;
+    text-align: center;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.status {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Arial, sans-serif;    
+}
+
+.booked {
+    background-color: white;
+    color: #94bf1f;
+}
+
+.waitlisted {
+    background-color: white;
+    color: #94bf1f;
+}
+
+.checked-in {
+    background-color: #94bf1f;
+    color: white;
+}
